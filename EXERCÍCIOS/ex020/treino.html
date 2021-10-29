@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+            align-content: baseline;
+            height: 250px;
+            width: 100vw;
+            background-image:linear-gradient(to bottom, rgb(255, 255, 255), rgb(0,255,255,0.70),rgb(0, 139, 139,0.70), rgb(0,80,80,0.85));
+            margin-bottom: 2vh;
+        }
+        #nome-empresa{
+            margin-top: 7vh;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 600;
+            font-size:500%;
+            color: white;
+            text-shadow: 0px 0px 20px black;
+            align-self: center;
+            /*justify-content: center;*/
+        }
+        .menu{            
+            height: 25px;
+           
+        }
+        .menu>ul>li{
+            display: inline-block;
+            font:  bold 1.3em arial, sans-serif ;
+            margin:0 3vw;
+        }
+        .menu>ul>li>a{
+            color: white;
+            text-shadow: 0px 0px 10px white;
+            text-decoration: none;
+        }
+        .menu>ul>li>a:hover{
+            text-shadow: 0px 0px 6px black;
+        }
+
+        .titulos{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2.3em;
+            text-align: center;
+        }
+        #principal{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 4em;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.445);
+        }
+        .conteudo{
+            text-align: justify;
+            text-indent: 30px;
+            margin:auto;
+            width: 80%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="nome-empresa">Sheffield Soluções</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1 id="principal" class="titulos">Treino de Desenvolvimento</h1>
+            <h2 class="titulos">Desenvolvendo estilos com Pseudo-classes</h2>
+                <p class="conteudo">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eaque voluptatibus iusto. Consequatur recusandae adipisci dolor totam corporis commodi id, aut consequuntur! Magni quisquam tenetur quidem dolorem itaque, ratione neque.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima libero maiores suscipit nesciunt architecto error cum, illum quia aliquam. Cumque vero veniam est quibusdam exercitationem praesentium aspernatur voluptatem aperiam doloribus?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. In mollitia cumque ipsum sequi iure exercitationem neque, pariatur tempora eligendi labore odio possimus impedit fugiat numquam tenetur reprehenderit error expedita aliquid.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat eius atque quod magni eaque alias officia optio numquam aperiam, delectus nam odio ut porro repellendus? Est obcaecati corporis officia corrupti.
+                </p>
+
+        </article>
+    </main>
+    
+</body>
+</html>
