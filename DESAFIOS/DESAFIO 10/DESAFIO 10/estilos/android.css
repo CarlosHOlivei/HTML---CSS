@@ -27,6 +27,15 @@ body{
     line-height: 1.5em;
     text-align: justify;
 }
+main > strong, a{
+    color: var(--color4);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main > a::after{
+    /**/
+}
 
 header{
     font-family: var(--fonte02);
@@ -104,6 +113,7 @@ aside > p{
 }
 aside>ul{
     margin: 10px;
+    list-style-type: '\2714\0020\0020';
     columns: 2;
     list-style-position: inside;
 }
