@@ -83,7 +83,7 @@ main{
 }
 
 .links::after{
-    /**/
+    content:'\01F517';
 }
 strong{
     color: var(--color4);
