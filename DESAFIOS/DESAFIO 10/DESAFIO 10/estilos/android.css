@@ -24,7 +24,6 @@
 body{
     background-color: var(--color2);
     font-family: var(--fonte01);
-    line-height: 1.5em;
     text-align: justify;
 }
 #cabeçalho{
@@ -83,31 +82,40 @@ main{
 #bugdroid{
     display: block;
     margin: auto;
-    width: 50%;
+    max-width: 350px;
 }
 .links{
-    background-color: #83e1ad67;
+    background-color: var(--color2);
     color: var(--color4);
     font-weight: bold;
-    padding: 5px;
+    padding: 2px 5px;
     text-decoration: none;
+}
+.links:hover{
+    color: var(--color5);
+    text-decoration: underline;
+    
 }
 
 .links::after{
-    content:'\01F517';
+    color: rgb(85, 146, 85);
+    content:'\00a0\01F517';
 }
 strong{
     color: var(--color4);
     font-weight: bold;
     text-decoration: none;
 }
-article > p{
-    text-indent: 20px;
-     
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em; 
+    font-size: 1em;
 }
 
 .titulo{
-    background-image: linear-gradient(to right, var(--color1), white);
+    background-image: linear-gradient(to right, var(--color1), transparent);
     color: var(--color5);
     margin: 1em 0;
     padding-left: 10px ;
@@ -147,7 +155,7 @@ aside{
 }
 aside > h3{
     color: white;
-    padding: 8px;
+    padding: 6px;
     margin: 0;
     border-radius: 10px 10px 0 0;
     background-color: var(--color4);
@@ -165,17 +173,19 @@ aside>ul{
 }
 footer{
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: thin;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 5px;
     background-color: var(--color6);
 }
 footer > p >a{
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
-footer > p >a:visited{
-    color: white;
+footer > p >a:hover{
+    color:var(--color3);
+    text-decoration: underline;
 }
